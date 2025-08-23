@@ -1,8 +1,9 @@
-# Base
-Collection of useful files for new repository's scaffolding.
+# Vigilia
+A vigil monitor for personal services.
 
 ## Table of Contents
 - [Installation](#installation)
+- [Requirements](#requirements)
 - [Usage](#usage)
 - [Resources](#resources)
 - [Contributing](#contributing)
@@ -10,34 +11,48 @@ Collection of useful files for new repository's scaffolding.
 - [License](#license)
 
 ## Installation
-Follow the steps below to make use of Base.
+Follow the steps below to make use of Automata.
 
 Clone this repository:
 ```bash
-git clone https://github.com/airscripts/base.git
+git clone https://github.com/airscripts/vigilia.git
 ```
 
+## Requirements
+- Docker
+
 ## Usage
-In order to use this project, just click the use as template in the repository's page.
+In order to use the stuff found in this repository run:
+```bash
+bash init.sh
+```
+This will initialize the required stuff for spinning up you n8n instance.
+
+After that just run a simple:
+```bash
+docker compose up
+```
+
+And everything will be available at port 3001 of your localhost.
 
 ## Resources
-Here you can list some useful resources about this project:
-- [GitHub Page](https://ghio.airscript.it/base): project's GitHub page.
+- Docker: https://www.docker.com/
+- Uptime Kuma: https://uptime.kuma.pet/
 
 ## Contributing
 Contributions and suggestions about how to improve this project are welcome!
-Please follow [our contribution guidelines](https://github.com/airscripts/base/blob/main/CONTRIBUTING.md).
+Please follow [our contribution guidelines](https://github.com/airscripts/vigilia/blob/main/CONTRIBUTING.md).
 
 ## Support
 If you want to support my work you can do it by following me, leaving a star, sharing my projects or also donating at the links below.  
 Choose what you find more suitable for you:  
 
-<a href="https://sponsor.airscript.it" target="blank">
+<a href="https://github.com/sponsors/airscripts" target="blank">
   <img src="https://raw.githubusercontent.com/airscripts/assets/main/images/github-sponsors.svg" alt="GitHub Sponsors" width="30px" />
 </a>&nbsp;
-<a href="https://kofi.airscript.it" target="blank">
+<a href="https://ko-fi.com/airscript" target="blank">
   <img src="https://raw.githubusercontent.com/airscripts/assets/main/images/kofi.svg" alt="Kofi" width="30px" />
 </a>
 
 ## License  
-This repository is licensed under [GPL-3.0 License](https://github.com/airscripts/base/blob/main/LICENSE).
+This repository is licensed under [GPL-3.0 License](https://github.com/airscripts/vigilia/blob/main/LICENSE).

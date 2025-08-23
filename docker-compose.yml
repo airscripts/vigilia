@@ -1,0 +1,31 @@
+services:
+  vigilia:
+    restart: always
+    container_name: vigilia
+    image: louislam/uptime-kuma:1
+
+    deploy:
+      resources:
+        limits:
+          cpus: "0.5"
+          memory: 512M
+
+        reservations:
+          cpus: "0.1"
+          memory: 256M
+
+    healthcheck:
+      retries: 10
+      timeout: 10s
+      interval: 30s
+      test: ["CMD", "wget", "--spider", "--quiet", "http://localhost:3001"]
+
+    ports:
+      - "3001:3001"
+
+    volumes:
+      - vigilia:/app/data
+
+volumes:
+  vigilia:
+    external: true
