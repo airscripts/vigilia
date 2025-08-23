@@ -1,8 +1,7 @@
 services:
   vigilia:
+    build: .
     restart: always
-    container_name: vigilia
-    image: louislam/uptime-kuma:1
 
     deploy:
       resources:
