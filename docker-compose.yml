@@ -7,12 +7,12 @@ services:
     deploy:
       resources:
         limits:
-          cpus: "0.5"
-          memory: 512M
+          cpus: "0.25"
+          memory: 256M
 
         reservations:
           cpus: "0.1"
-          memory: 256M
+          memory: 128M
 
     ports:
       - 3001
