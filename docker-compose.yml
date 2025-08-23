@@ -18,7 +18,7 @@ services:
       retries: 10
       timeout: 10s
       interval: 30s
-      test: ["CMD", "wget", "--spider", "--quiet", "http://localhost:3001"]
+      test: ["CMD", "wget", "--spider", "--quiet", "http://localhost:3001/dashboard"]
 
     ports:
       - "3001:3001"
