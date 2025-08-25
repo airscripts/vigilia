@@ -11,7 +11,7 @@ A vigil monitor for personal services.
 - [License](#license)
 
 ## Installation
-Follow the steps below to make use of Automata.
+Follow the steps below to make use of Vigilia.
 
 Clone this repository:
 ```bash
@@ -26,7 +26,7 @@ In order to use the stuff found in this repository run:
 ```bash
 bash init.sh
 ```
-This will initialize the required stuff for spinning up you n8n instance.
+This will initialize the required stuff for spinning up the service.
 
 After that just run a simple:
 ```bash
