@@ -6,6 +6,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 # 1.0.0
 
 ## What's Changed
-* feat: add vigilia service
+* feat: add kuma service
 
-**Full Changelog**: https://github.com/airscripts/vigilia/commits/1.0.0
+**Full Changelog**: https://github.com/airscripts/kuma/commits/1.0.0

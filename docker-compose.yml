@@ -1,5 +1,5 @@
 services:
-  vigilia:
+  kuma:
     build: .
     restart: always
 
@@ -17,8 +17,8 @@ services:
       - 3001
 
     volumes:
-      - vigilia:/app/data
+      - kuma:/app/data
 
 volumes:
-  vigilia:
+  kuma:
     external: true

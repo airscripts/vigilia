@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: If you use this software in your work, please cite it using the following metadata
-title: Vigilia
+title: Kuma
 authors:
 - family-names: Sardone
   given-names: Francesco
@@ -10,4 +10,4 @@ keywords:
 version: 1.0.0
 date-released: 2025-08-23
 license: GPL-3.0
-repository-code: https://github.com/airscripts/vigilia
+repository-code: https://github.com/airscripts/kuma

@@ -1,5 +1,5 @@
-# Vigilia
-A vigil monitor for personal services.
+# Kuma
+A simple Docker Compose implementation of famous Uptime Kuma.
 
 ## Table of Contents
 - [Installation](#installation)
@@ -11,11 +11,11 @@ A vigil monitor for personal services.
 - [License](#license)
 
 ## Installation
-Follow the steps below to make use of Vigilia.
+Follow the steps below to make use of Kuma.
 
 Clone this repository:
 ```bash
-git clone https://github.com/airscripts/vigilia.git
+git clone https://github.com/airscripts/kuma.git
 ```
 
 ## Requirements
@@ -41,7 +41,7 @@ And everything will be available at port 3001 of your localhost.
 
 ## Contributing
 Contributions and suggestions about how to improve this project are welcome!
-Please follow [our contribution guidelines](https://github.com/airscripts/vigilia/blob/main/CONTRIBUTING.md).
+Please follow [our contribution guidelines](https://github.com/airscripts/kuma/blob/main/CONTRIBUTING.md).
 
 ## Support
 If you want to support my work you can do it by following me, leaving a star, sharing my projects or also donating at the links below.  
@@ -55,4 +55,4 @@ Choose what you find more suitable for you:
 </a>
 
 ## License  
-This repository is licensed under [GPL-3.0 License](https://github.com/airscripts/vigilia/blob/main/LICENSE).
+This repository is licensed under [GPL-3.0 License](https://github.com/airscripts/kuma/blob/main/LICENSE).
